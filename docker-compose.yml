@@ -1,0 +1,56 @@
+version: '3.8'
+
+services:
+  python:
+    image: fibopy
+    build:
+      context: ./benchmark/python
+    container_name: fibopy
+    volumes:
+      - ./benchmark/python:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
+  java:
+    image: fibojava
+    build:
+      context: ./benchmark/java
+    container_name: fibojava
+    volumes:
+      - ./benchmark/java:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
+
+  cpp:
+    image: fibocpp
+    build:
+      context: ./benchmark/cpp
+    container_name: fibocpp
+    volumes:
+      - ./benchmark/cpp:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
+
+  javascript:
+    image: fibojs
+    build:
+      context: ./benchmark/javascript
+    container_name: fibojs
+    volumes:
+      - ./benchmark/javascript:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
+
+  go:
+    image: fibogo
+    build:
+      context: ./benchmark/goland
+    container_name: fibogo
+    volumes:
+      - ./benchmark/goland:/app
+    working_dir: /app
+    tty: true
+    stdin_open: true
