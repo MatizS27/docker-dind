@@ -19,7 +19,7 @@ Este repositorio contiene la configuración de Docker Compose para ejecutar y co
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/PipeJF9/docker-dind.git
+   git clone --recurse-submodules https://github.com/MatizS27/docker-dind.git
    cd docker-dind
 
 2. Ejecuta el compose
