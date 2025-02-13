@@ -3,8 +3,8 @@
 Este repositorio contiene la configuración de Docker Compose para ejecutar y comparar el rendimiento de scripts en diferentes lenguajes de programación.
 
 ## Miembros del Grupo
-- Samuel Matiz Garcia
-- Juan Felipe Santos Rodriguez
+- Samuel Matiz Garcia [@MatizS27](https://github.com/MatizS27/docker-dind)
+- Juan Felipe Santos Rodriguez [PipeJF9](https://github.com/PipeJF9)
 
 ## Enlace al Repositorio de Códigos del Benchmark
 [Repositorio de Códigos](https://github.com/PipeJF9/benchmark.git)
