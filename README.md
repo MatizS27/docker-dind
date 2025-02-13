@@ -17,7 +17,7 @@ Este repositorio contiene la configuración de Docker Compose para ejecutar y co
 
 ### Pasos para Ejecutar
 
-1. Clona este repositorio:
+1. Clona este repositorio (Habilitar el fingerprint):
    ```bash
    git clone --recurse-submodules https://github.com/MatizS27/docker-dind.git
    cd docker-dind
